@@ -1,0 +1,218 @@
+body{
+ font-family:'Roboto', sans-serif;  
+ margin:0px;
+ padding: 0px;
+ height: 300vh;
+ width: 100vh;
+}
+header{
+  color: white;    
+  background-color: white;
+  height: 6%;
+  width: 215%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header button{
+   color: black;
+   background-color: rgba(255, 166, 0, 0.753); 
+   border:none;
+   height: 40px;
+   width: 100px;
+   border-radius: 5px;
+   box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+   font-size:17px;
+}
+
+header button:hover{
+background-color: orange;
+}
+
+header ul{
+position:absolute;
+display: flex;
+flex-direction: row;
+padding: 0;
+gap: 10px;
+font-size: 14px;
+list-style: none;
+align-items: center;
+color: black;
+top: 0%;
+left: 950px;
+justify-content: space-between;
+}
+
+
+header li{
+   display: flex;
+   font-size: 1.5em; 
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    right: 50%;
+}
+
+.vertical-line {
+    width: 2px; 
+    height: 20px; 
+    background-color: #000; 
+}
+
+#unitelimg{ 
+position: absolute; 
+width: 100%;
+height: 65%;
+background-color: aquamarine;
+}
+
+#unitelimg img{
+height: 100%;
+width: 100%;
+}
+
+#info{
+position: relative;
+width: 80%;
+height: 23%;
+top:20%;
+left: 15%;
+font-size: 4rem;
+font-weight:800;
+
+}
+
+#bukaimg{
+    top: -1%;
+    position: relative;
+    height: 30%;
+    width: 100%;
+    left: 100%;
+    }
+
+#bukaimg img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.option:hover{
+border-bottom: 2px solid  rgba(255, 166, 0, 0.753); ;
+}
+
+
+  
+#cursolist{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    background-color:rgba(245, 245, 245, 0.596);
+    width: 215%;
+    height: 55%;
+    justify-content: space-around;
+}
+
+.cursos{
+ height: 350px;
+ width: 350px;
+ background-color: white;
+ border-radius: 3%;
+ box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+}
+
+.cursoimg{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 60%;
+    border-radius: 3%;
+
+}
+
+.cursoimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+.cursoname, .cursodate, .cursoprice{
+position: relative;
+left: 7%;
+}
+
+.cursos button{
+   position: relative;
+   left: 65%;
+   top: -20%;
+   color: black;
+   background-color: rgba(255, 166, 0, 0.753); 
+   border:none;
+   height: 50px;
+   width: 110px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+   font-size:17px;
+}
+
+.cursos button:hover{
+    background-color: orange;
+    }
+
+    footer{
+        position: absolute; 
+        left: 0px;
+        right: 0px;
+        height: 16%;
+        background-color:black;
+        align-items: center; 
+    }
+
+
+        .copyright{
+            position: absolute;
+            display: flex;
+            align-items: center; 
+            font-size: 100%;
+            color: white;
+            left: 30px; 
+            height: 20%;
+            top: 40%;    
+         }
+        
+        .politica{
+            position: absolute;
+            height: 20%;
+            font-size: 100%;
+            color: white;
+            left: 82%;
+            top: 40%;
+
+        }
+        .footericon{
+            display: flex;
+            position: absolute;  
+            flex-direction: row;  
+            height: 40%;
+            width: 15%;
+            left: 40%;
+            top:30px;
+            font-size: 50%;
+            align-items: center;
+        }
+        
+        .footericon img{
+        width: 40%;
+        }
+        
+        .footericon ul,ol{
+        display: flex;   
+        }
