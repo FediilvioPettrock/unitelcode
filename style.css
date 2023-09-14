@@ -8,8 +8,13 @@ body{
 header{
   color: white;    
   background-color: white;
-  height: 6%;
+  height: 4%;
   width: 215%;
+  font-family: 'teste', sans-serif;
+}
+
+.login-logon{
+    font-family: 'teste', sans-serif;
 }
 
 header a{
@@ -28,11 +33,12 @@ header button{
    font-size:17px;
 }
 
-header button:hover{
+header button:hover, .saiba-mais button:hover{
 background-color: orange;
+
 }
 
-header ul{
+.menu{
 position:absolute;
 display: flex;
 flex-direction: row;
@@ -42,9 +48,25 @@ font-size: 14px;
 list-style: none;
 align-items: center;
 color: black;
-top: 0%;
-left: 950px;
+top: 2%;
+left: 450px;
 justify-content: space-between;
+font-family: 'teste';
+}
+
+.login-logon{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
+    font-size: 14px;
+    list-style: none;
+    align-items: center;
+    color: black;
+    top: 2%;
+    left: 1000px;
+    justify-content: space-between; 
 }
 
 
@@ -53,11 +75,19 @@ header li{
    font-size: 1.5em; 
 }
 
-header img{
-    height: 100px;
-    width: 100px;
+#logo img{
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     right: 50%;
+}
+#logo{
+    margin-left:30px;
+    margin-top: 25px;
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 50px;  
 }
 
 .vertical-line {
@@ -71,6 +101,7 @@ position: absolute;
 width: 100%;
 height: 65%;
 background-color: aquamarine;
+border-radius: 2%;
 }
 
 #unitelimg img{
@@ -86,7 +117,6 @@ top:20%;
 left: 15%;
 font-size: 4rem;
 font-weight:800;
-
 }
 
 #bukaimg{
@@ -116,6 +146,7 @@ border-bottom: 2px solid  rgba(255, 166, 0, 0.753); ;
     align-items: center;
     position: relative;
     background-color:rgba(245, 245, 245, 0.596);
+    top: 70px;
     width: 215%;
     height: 55%;
     justify-content: space-around;
@@ -127,6 +158,7 @@ border-bottom: 2px solid  rgba(255, 166, 0, 0.753); ;
  background-color: white;
  border-radius: 3%;
  box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+ font-family: 'teste', sans-serif;
 }
 
 .cursoimg{
@@ -144,7 +176,7 @@ border-bottom: 2px solid  rgba(255, 166, 0, 0.753); ;
     border-radius: 3%;
 }
 
-.cursoname, .cursodate, .cursoprice{
+.cursoname, .cursoprice{
 position: relative;
 left: 7%;
 }
@@ -152,7 +184,7 @@ left: 7%;
 .cursos button{
    position: relative;
    left: 65%;
-   top: -20%;
+   top: -12%;
    color: black;
    background-color: rgba(255, 166, 0, 0.753); 
    border:none;
@@ -161,58 +193,172 @@ left: 7%;
    border-radius: 10px;
    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
    font-size:17px;
+   font-family: 'teste', sans-serif;
 }
 
 .cursos button:hover{
     background-color: orange;
     }
 
+    .bazza{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        top: 200px;
+        left: 5%;
+        width: 205%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+     
+    .bazzainfo{
+        position: relative;
+        width: 55%;
+        font-family:'teste', sans-serif;
+        font-size: 1.8rem;
+        font-weight:800;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .saiba-mais{
+        display: inline-block;
+        position: relative;
+        left: 150%;
+        top: 9%;
+
+    }
+
+    .saiba-mais button{
+   color: black;
+   background-color: rgba(255, 166, 0, 0.753); 
+   border:none;
+   height: 50px;
+   width: 110px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+   font-size:17px;
+   font-family: 'teste', sans-serif;
+    }
+
+
     footer{
         position: absolute; 
         left: 0px;
         right: 0px;
-        height: 16%;
+        top: 2700px;
+        height: 90%;
         background-color:black;
         align-items: center; 
+        border-radius: 2px;
+        font-family: 'teste', sans-serif;
+        background-color: orange;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
     }
 
 
         .copyright{
-            position: absolute;
+            position: relative;
             display: flex;
-            align-items: center; 
+            justify-content: center;
             font-size: 100%;
             color: white;
             left: 30px; 
-            height: 20%;
-            top: 40%;    
+            height: 4%;
+            width:30%;
+            top:230px;  
          }
         
         .politica{
-            position: absolute;
-            height: 20%;
+            display: flex;
+            position: relative;
+            height: 4%;
+            width: 15%;
             font-size: 100%;
             color: white;
             left: 82%;
-            top: 40%;
-
+            top:180px;  
+            justify-content: space-around;
         }
         .footericon{
             display: flex;
-            position: absolute;  
+            position: relative;  
             flex-direction: row;  
-            height: 40%;
+            height: 4%;
             width: 15%;
-            left: 40%;
-            top:30px;
+            left: 45%;
+            top:210px;  
             font-size: 50%;
             align-items: center;
         }
         
         .footericon img{
-        width: 40%;
+        width: 50%;
         }
         
         .footericon ul,ol{
         display: flex;   
         }
+
+        #paragrafo{
+            color: orange;
+        }
+
+    .dizeres{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        top:90px; 
+        color: white;
+
+    }
+
+    .footer-vertical-line{
+        width: 1px; 
+        background-color: #000; 
+    }
+
+    .dizeres ul{
+        list-style-type: none;
+    }
+
+
+    @font-face{
+        font-family: 'teste';
+        src: url('Intro-Regular.ttf') format('opentype');
+        font-weight: normal;
+        font-size: normal;
+    }
+
+    .newsletter-input {
+        padding: 10px;
+        width: 250px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .newsletter-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .newsletter-button:hover {
+        background-color: #0056b3;
+    }
+
+    .fale-conosco{
+        text-align: center;
+    }
+
+ 
